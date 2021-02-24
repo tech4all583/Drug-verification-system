@@ -25,7 +25,7 @@ function page_title($page_title = ""){
 }
 
 function image_url($src){
-    return base_url('images/'.$src);
+    return base_url('templates/img/'.$src);
 }
 
 function set_flash ($msg,$type){
