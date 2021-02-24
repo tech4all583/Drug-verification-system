@@ -1,116 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="155f2897-f3ee-41db-9ff5-d8e65e862212" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libs/foot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/fonts/star.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/fonts/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/fonts/star.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/fonts/star.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/fonts/star_957223261.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/skins/skin-corporate-hosting.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/theme-blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/theme-elements.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/theme-shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/arrows-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/custom-header-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/custom-underline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/history-thumb-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/history-thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/home-concept-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/home-concept-icons-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/home-concept-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/home-concept-item-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/home-concept-item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/home-concept.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/map-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/map-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/originallogo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/parallax-44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/patterns/az_subtle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/patterns/stripes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/patterns/worn_dots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/slides/food-slide.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/slides/slide-corporate-100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/slides/slide-corporate-20000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/slides/slide-corporate-300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/slides/slide-title-border-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/slides/vet2-slide.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/slides/water-slide.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/video-overlay-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/img/video-overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/theme.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/animate/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/common/common.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-brands-400_1717961559.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-regular-400_1882139474.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/font-awesome/webfonts/fa-solid-900_1813729546.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/isotope/jquery.isotope.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/jquery-cookie/jquery-cookie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/jqueryappear/2134472820.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/jqueryeasing/1949662064.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/jqueryeasy-pie-chart/1747024496.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/jquerygmap/1898905624.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/jquerylazyload/373455483.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/jqueryvalidation/39587864.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/magnific-popup/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/magnific-popup/magnific-popup.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/modernizr/modernizr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/owlcarousel/813180503.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/owlcarousel/assets/588664834.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/owlcarousel/assets/811690873.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/owlcarousel/assets/owl.video.play_808995095.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/popper/umd/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/assets/coloredbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/assets/gridtile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/assets/gridtile_3x3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/assets/gridtile_3x3_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/assets/gridtile_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/assets/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/css/layers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/css/navigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/css/settings.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/fonts/revicons/revicons_1232761448.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/fonts/revicons/revicons_1736073776.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/fonts/revicons/revicons_1952674864.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/fonts/revicons/revicons_1969320752.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/rs-plugin/js/jquery.themepunch.tools.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/simple-line-icons/css/simple-line-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/simple-line-icons/fonts/Simple-Line-Icons_1644329783.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/simple-line-icons/fonts/Simple-Line-Icons_679231032.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/simple-line-icons/fonts/Simple-Line-Icons_712719929.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/simple-line-icons/fonts/Simple-Line-Icons_862797354.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/vide/vide.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/func.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/func.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="155f2897-f3ee-41db-9ff5-d8e65e862212" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,8 +12,10 @@
     <session id="583771960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,26 +34,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="365" />
+          <entry key="php" value="390" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="365" />
+          <entry key="PHP" value="390" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="9075">
               <caret line="610" selection-start-line="610" selection-end-line="610" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -168,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libs/head.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+            <state relative-caret-position="-27">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -186,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="330">
               <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
@@ -195,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/foot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="120">
               <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
@@ -309,25 +199,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614160103648</updated>
-      <workItem from="1614160105113" duration="3329000" />
+      <workItem from="1614160105113" duration="4604000" />
+      <workItem from="1614171169681" duration="934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3329000" />
+    <option name="totallyTimeSpent" value="5538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3263328" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33117932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32978722" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -335,10 +220,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,9 +263,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9075">
+          <caret line="610" selection-start-line="610" selection-end-line="610" />
         </state>
       </provider>
     </entry>
@@ -388,32 +282,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="330">
           <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/foot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="120">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="610" selection-start-line="610" selection-end-line="610" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="-27">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>

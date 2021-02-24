@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="<?= HTML_TEMPLATE ?>css/theme-shop.css" />
     <!-- Current Page CSS -->
     <link rel="stylesheet" href="<?= HTML_TEMPLATE ?>vendor/rs-plugin/css/settings.css" /><link rel="stylesheet" href="<?= HTML_TEMPLATE ?>vendor/rs-plugin/css/layers.css" /><link rel="stylesheet" href="<?= HTML_TEMPLATE ?>vendor/rs-plugin/css/navigation.css" />
-
     <!-- Demo CSS -->
     <!-- Skin CSS -->
     <link rel="stylesheet" href="<?= HTML_TEMPLATE ?>css/skins/skin-corporate-hosting.css" />
