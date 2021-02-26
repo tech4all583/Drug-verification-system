@@ -69,8 +69,8 @@
                                                 <i class="fas fa-user"></i> &nbsp; Sign In
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="login_aspx.html">As Staff</a></li>
-                                                <li><a class="dropdown-item" href="App_Application/CheckOut_aspx.html">As Client</a></li>
+                                                <li><a class="dropdown-item" href="admin.php">As Staff</a></li>
+                                                <li><a class="dropdown-item" href="client.php">As Client</a></li>
                                             </ul>
                                         </li>
 
