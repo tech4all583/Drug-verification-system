@@ -29,6 +29,11 @@
     <link rel="stylesheet" href="<?= HTML_TEMPLATE ?>css/custom.css" />
     <!-- Head Libs -->
     <script src="<?= HTML_TEMPLATE ?>vendor/modernizr/modernizr.min.js"></script>
+    <style>
+        .card{
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body class="body">
 
@@ -70,12 +75,17 @@
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="admin.php">As Staff</a></li>
-                                                <li><a class="dropdown-item" href="client.php">As Client</a></li>
+                                                <li><a class="dropdown-item" href="login.php">As Client</a></li>
                                             </ul>
                                         </li>
 
                                         <li class="dropdown">
                                             <a class="" href="#">About Developers
+                                            </a>
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a class="" href="#">Contact Us
                                             </a>
                                         </li>
                                     </ul>

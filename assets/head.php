@@ -109,7 +109,7 @@
                 </li>
 
                 <li >
-                    <a href="<?= base_url('all-client.php') ?>">
+                    <a href="<?= base_url('client.php') ?>">
                         <i class="fa fa-users text-success "></i>
                         <span>All Clients</span>
                     </a>

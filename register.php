@@ -32,4 +32,35 @@ require_once 'libs/head.php';
 </section>
 
 
+<div id="ContentPlaceHolder1_UpdatePanel1" style="margin-bottom: 20px;">
+    <div class="container">
+        <form action="" method="post">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="card">
+                        <div class="card-header">Company Details</div>
+                        <div class="card-body">
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">Company Details</div>
+                        <div class="card-body">
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
 <?php require_once 'libs/foot.php';?>
