@@ -18,7 +18,7 @@
     define("LIB_TEMPLATE", LIB_DIR.'templates/');
 
     define("USER_SESSION_HOLDER", "admin");
-    define("WEB_TITLE","Nafdac Drug Verification");
+    define("WEB_TITLE","Drug Verification");
     define("WEB_SUB_TITLE","DG");
 
     if (Env == "online") {

@@ -8,13 +8,6 @@
                 <div class="col-lg-5">
                     <p>© Copyright 2020. All Rights Reserved.</p>
                 </div>
-                <div class="col-lg-7">
-                    <nav id="sub-menu">
-                        <ul>
-                            <li><a href="<?= base_url() ?>"><i class="fas fa-envelope"></i>info@napams.org</a></li>
-                        </ul>
-                    </nav>
-                </div>
             </div>
         </div>
     </div>

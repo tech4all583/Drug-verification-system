@@ -60,7 +60,7 @@
 
 
                                         <li class="dropdown">
-                                            <a class="" href="#plans">Register
+                                            <a class="" href="register.php">Register
                                             </a>
 
                                         </li>
