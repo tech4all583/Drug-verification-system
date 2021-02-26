@@ -12,6 +12,17 @@ if (isset($_POST['login'])){
     $email = $_POST['email'];
     $password = $_POST['password'];
 
+    $sql = $db->query("SELECT * FROM ".DB_PREFIX."client_company WHERE remail='$email' and rpassword='$password'");
+    $rs = $sql->fetch(PDO::FETCH_ASSOC);
+
+    if ($sql->rowCount() == 0){
+        set_flash("Invalid login details entered","danger");
+    }elseif ($rs['status'] == 0){
+        set_flash("Your registration still under review, you will get a notification when it has been approved","danger");
+    }else{
+        $_SESSION['client-loggein'] = true;
+        $_SESSION[CLIENT_FOLDER] = $rs['remail'];
+    }
 
 }
 require_once 'libs/head.php';

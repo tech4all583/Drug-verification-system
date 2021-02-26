@@ -20,6 +20,7 @@
     define("LIB_TEMPLATE", LIB_DIR.'templates/');
 
     define("USER_SESSION_HOLDER", "admin");
+    define("CLIENT_FOLDER", "client");
     define("WEB_TITLE","Drug Verification");
     define("WEB_SUB_TITLE","DG");
 
