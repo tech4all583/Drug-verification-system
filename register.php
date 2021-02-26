@@ -8,6 +8,11 @@
 
 $page_title = "Register";
 require_once 'config/core.php';
+if (isset($_POST['register'])){
+    echo '<pre>';
+    var_dump($_POST);
+    exit();
+}
 require_once 'libs/head.php';
 ?>
 
@@ -40,6 +45,8 @@ require_once 'libs/head.php';
 
                     <div class="alert alert-success"><i class="fa fa-info-circle"></i> Please Note : All field(s) are required</div>
 
+                    <?php flash(); ?>
+
                     <div class="card">
                         <div class="card-header">Company Details</div>
                         <div class="card-body">
@@ -62,7 +69,7 @@ require_once 'libs/head.php';
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label for="">Type Of Agency</label>
-                                        <select name="ctype-agency" class="form-control" required id="">
+                                        <select name="ctype_agency" class="form-control" required id="">
                                             <option value="" disabled selected>Select</option>
                                             <option>Government</option>
                                             <option>Non-government</option>
@@ -73,7 +80,7 @@ require_once 'libs/head.php';
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label for="">RC Number</label>
-                                        <input type="text" class="form-control" name="crc-number" required placeholder="RC Number" id="">
+                                        <input type="text" class="form-control" name="crc_number" required placeholder="RC Number" id="">
                                     </div>
                                 </div>
 
@@ -96,7 +103,7 @@ require_once 'libs/head.php';
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label for="">Date Of Incorporation</label>
-                                        <input type="date" class="form-control" name="cdate-inc" required placeholder="Date Of Incorporation" id="">
+                                        <input type="date" class="form-control" name="cdate_inc" required placeholder="Date Of Incorporation" id="">
                                     </div>
                                 </div>
 
@@ -128,7 +135,7 @@ require_once 'libs/head.php';
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label for="">Company State</label>
-                                        <select class="form-control" name="state" required="">
+                                        <select class="form-control" name="cstate" required="">
                                             <option value="">State of Origin</option>
                                             <?php
                                             $s = array("Abia State","Adamawa State","Akwa Ibom State","Anambra State","Bauchi State","Bayelsa State","Benue State","Borno State","Cross River State","Delta State","Ebonyi State","Edo tate","Ekiti State","Enugu State","FCT","Gombe State","Imo State","Jigawa State","Kaduna State","Kano State","Katsina state","Kebbi State","Kogi State","Kwara State","Lagos State","Nasarawa State","Niger State","Ogun State","Ondo State","Osun State","Oyo State","Plateau State","Rivers State","Sokoto State","Taraba State","Yobe State","Zamfara State");
@@ -198,7 +205,7 @@ require_once 'libs/head.php';
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label for=""> Pharmacist's License to Practise or Receipt of Payment for Renewal [Drug  </label> <br>
-                                        <input type="file" name="app-license-pdf" accept="application/pdf" required id="">
+                                        <input type="file" name="app_license_pdf" accept="application/pdf" required id="">
                                     </div>
                                 </div>
 
@@ -213,7 +220,7 @@ require_once 'libs/head.php';
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <label for=""> Certificate Of Incorporation: [PDF] </label> <br>
-                                    <input type="file" name="app-certificate-pdf" accept="application/pdf" required id="">
+                                    <input type="file" name="app_certificate_pdf" accept="application/pdf" required id="">
                                 </div>
                             </div>
 
@@ -225,7 +232,7 @@ require_once 'libs/head.php';
 
                 <div class="form-group">
                     <center>
-                        <input type="submit" class="btn btn-primary" value="Submit" name="" id="">
+                        <input type="submit" class="btn btn-primary" value="Submit" name="register" id="">
                     </center>
                 </div>
 

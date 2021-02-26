@@ -8,6 +8,12 @@
 
 $page_title = "Client";
 require_once 'config/core.php';
+if (isset($_POST['login'])){
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+
+}
 require_once 'libs/head.php';
 ?>
 
@@ -63,10 +69,8 @@ require_once 'libs/head.php';
                         <div class="featured-box featured-box-primary text-left mt-5">
                             <div class="box-content">
                                 <h4 class="heading-primary text-uppercase mb-3">I'm a Returning Client ||  <u><a href="<?= base_url('register.php') ?>">Are you new? Register</a></u></h4>
-                                <div>
-                                    <span id="ContentPlaceHolder1_lblMessage"></span>
-                                </div>
-                                <form action="/" id="frmSignIn" method="post">
+                               <?php flash(); ?>
+                                <form  method="post">
                                     <div class="form-row">
                                         <div class="form-group col">
                                             <label>E-mail Address</label>
@@ -75,7 +79,6 @@ require_once 'libs/head.php';
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col">
-                                            <a class="float-right" href="">(Lost Password?)</a>
                                             <label>Password</label>
                                             <input name="password" type="password" required tabindex="1" class="form-control form-control-lg" placeholder="Password" />
                                         </div>

@@ -579,7 +579,7 @@ require_once 'libs/head.php';
                     <div class="plan">
                         <h3>NAFDAC Staff</h3>
                         <p>Click here to sign-in as a NAFDAC Staff</p>
-                        <a class="btn btn-md btn-primary" href="login_aspx.html">Sign in</a>
+                        <a class="btn btn-md btn-primary" href="admin.php">Sign in</a>
 
                     </div>
                 </div>
@@ -587,7 +587,7 @@ require_once 'libs/head.php';
                     <div class="plan">
                         <h3>NAFDAC Client</h3>
                         <p>Click here as a returning client or new client</p>
-                        <a class="btn btn-md btn-primary" href="App_Application/CheckOut_aspx.html">Sign in</a>
+                        <a class="btn btn-md btn-primary" href="login.php">Sign in</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -601,7 +601,7 @@ require_once 'libs/head.php';
                     <div class="plan">
                         <h3>Data Capture</h3>
                         <p>Register details of current NAFDAC approved products by using this link.</p>
-                        <a class="btn btn-md btn-primary" href="App_Application/CheckOut_aspx.html">Click Here</a>
+                        <a class="btn btn-md btn-primary" href="#">Click Here</a>
                     </div>
                 </div>
             </div>
