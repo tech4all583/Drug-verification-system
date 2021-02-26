@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_mlarge">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_marginTop="@dimen/spacing_mlarge"
+                android:layout_gravity="center"
+                android:src="@drawable/icon"
+                android:layout_height="120dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Project Topic"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:textSize="@dimen/spacing_mlarge"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Design and implementation of an android \nbased drug verification \n  \n(A case study of NAFDAC)"
+                android:textSize="@dimen/spacing_large"
+                android:padding="@dimen/spacing_medium"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginBottom="@dimen/spacing_large"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:text="Drug Verification"
+                android:layout_gravity="center"
+                android:id="@+id/drug"
+                android:padding="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Supervised By"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:textSize="@dimen/spacing_mlarge"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:src="@drawable/author"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:text="Mr Lawal"
+                android:textSize="@dimen/spacing_large"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:text="About Developers "
+                android:id="@+id/developer"
+                android:padding="@dimen/spacing_large"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/spacing_mlarge"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
