@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="155f2897-f3ee-41db-9ff5-d8e65e862212" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/app/src/main/java/com/app/drugverification/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/app/src/main/java/com/app/drugverification/Developers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/app/src/main/java/com/app/drugverification/Lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/app/src/main/java/com/app/drugverification/RecyclerViewAdapters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/app/src/main/res/drawable/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/app/src/main/res/layout/activity_developers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/app/src/main/res/layout/lists.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/app/src/main/res/values/dimen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-client.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.php" beforeDir="false" afterPath="$PROJECT_DIR$/client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/app/src/main/java/com/app/drugverification/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/app/src/main/java/com/app/drugverification/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-    </list>
+    <list default="true" id="155f2897-f3ee-41db-9ff5-d8e65e862212" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +22,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="jpg" value="1" />
+          <entry key="jpeg" value="1" />
+          <entry key="jpg" value="2" />
           <entry key="js" value="2" />
           <entry key="php" value="35" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="Image" value="1" />
+          <entry key="Image" value="4" />
           <entry key="JavaScript" value="2" />
           <entry key="PHP" value="35" />
         </counts>
@@ -85,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libs/head.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -201,7 +179,7 @@
             <path>
               <item name="drug-verification" type="b2602c69:ProjectViewProjectNode" />
               <item name="drug-verification" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,12 +227,12 @@
       <workItem from="1614171169681" duration="934000" />
       <workItem from="1614178128467" duration="463000" />
       <workItem from="1614179726458" duration="438000" />
-      <workItem from="1614255430643" duration="6831000" />
+      <workItem from="1614255430643" duration="7965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13270000" />
+    <option name="totallyTimeSpent" value="14404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -272,7 +250,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -370,9 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/img/icon.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -443,10 +418,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/img/icon.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/img/icon.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/libs/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
         </state>
       </provider>
     </entry>
