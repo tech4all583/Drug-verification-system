@@ -96,3 +96,11 @@ function amount_format($amount){
 function checkemail($str) {
     return (!preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
 }
+
+function status($status){
+    if ($status == 0){
+        return "Not Approve";
+    }else{
+        return "Approved";
+    }
+}

@@ -25,6 +25,8 @@ if (isset($_POST['register'])){
     $rphone = $data['rphone'];
     $rpassword = $data['rpassword'];
     $appdate = $data['appdate'];
+    $ctype_agency = $data['ctype_agency'];
+    $ctype = $data['ctype'];
 
     $allowed = array('pdf');
     $folder = "templates/documents/";
@@ -100,12 +102,12 @@ if (isset($_POST['register'])){
             (rname,remail,rphone,rpassword,cname,ctin,ctype_agency,crc_number,ctype,cdate_inc,
             cphone,cemail,cstate,caddress,app_license_pdf,appdate,app_certificate_pdf)
             VALUES('$rname','$remail','$rphone','$rpassword','$cname','$ctin','$ctype_agency',
-            '$crc_number','$ctype','$cdate_inc',
-            '$cphone','$cemail','$cstate','$caddress','$app_license_pdf_name','$appdate','$app_certificate_pdf_name')");
+            '$crc_number','$ctype','$cdate_inc','$cphone','$cemail','$cstate','$caddress','$app_license_pdf_name',
+            '$appdate','$app_certificate_pdf_name')");
 
-            set_flash("Registration was successfully, please wait for minute to review your document",'success');
+            set_flash("Registration was successfully, please wait for a minute to review your document to get approval",'success');
 
-            //redirect(base_url('register.php'));
+            redirect(base_url('register.php'));
         }
 
     }else{
