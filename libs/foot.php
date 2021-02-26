@@ -13,6 +13,7 @@
     </div>
 </footer>
 
+
 <!-- Vendor -->
 <script src="<?= HTML_TEMPLATE ?>vendor/jquery/jquery.min.js"></script>
 <script src="<?= HTML_TEMPLATE ?>vendor/jqueryappear/2134472820.js"></script>

@@ -12,6 +12,8 @@
 
     define("DB_PREFIX", "dg_");
 
+    ini_set('upload_max_filesize','20M');
+
     define("LIB_DIR","http://projects.io/app/creche/");
     define("HOME_DIR","http://projects.io/app/drug-verification/");
     define("HTML_TEMPLATE",HOME_DIR.'templates/');

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155f2897-f3ee-41db-9ff5-d8e65e862212" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/foot.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/foot.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +29,7 @@
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="2" />
           <entry key="js" value="2" />
-          <entry key="php" value="37" />
+          <entry key="php" value="39" />
           <entry key="png" value="1" />
         </counts>
       </usages-collector>
@@ -38,17 +38,17 @@
           <entry key="CSS" value="2" />
           <entry key="Image" value="4" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="37" />
+          <entry key="PHP" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3232" />
+          <entry key="php" value="5172" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3232" />
+          <entry key="PHP" value="5172" />
         </counts>
       </usages-collector>
     </session>
@@ -58,17 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2307">
+            <state relative-caret-position="3858">
               <caret line="603" column="65" selection-start-line="603" selection-start-column="65" selection-end-line="603" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/foot.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -76,12 +67,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="164" column="100" selection-start-line="164" selection-start-column="95" selection-end-line="164" selection-end-column="100" />
+            <state relative-caret-position="370">
+              <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#1017#1045#0#HTML" expanded="true" />
+                <element signature="e#8158#8197#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../creche/parent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="75" column="46" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/core.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -96,6 +105,7 @@
       <find>text-danger</find>
       <find>HTML_TEMPLATE</find>
       <find>text-primary</find>
+      <find>required</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?= HTML_TEMPLATE ?&gt;</replace>
@@ -118,15 +128,15 @@
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/assets/foot.php" />
-        <option value="$PROJECT_DIR$/config/core.php" />
         <option value="$PROJECT_DIR$/staff.php" />
         <option value="$PROJECT_DIR$/all-client.php" />
-        <option value="$PROJECT_DIR$/libs/foot.php" />
         <option value="$PROJECT_DIR$/client.php" />
         <option value="$PROJECT_DIR$/assets/head.php" />
         <option value="$PROJECT_DIR$/libs/head.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/libs/foot.php" />
+        <option value="$PROJECT_DIR$/config/core.php" />
         <option value="$PROJECT_DIR$/register.php" />
       </list>
     </option>
@@ -177,6 +187,11 @@
               <item name="drug-verification" type="462c0819:PsiDirectoryNode" />
               <item name="mobile" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="drug-verification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drug-verification" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -223,12 +238,12 @@
       <workItem from="1614171169681" duration="934000" />
       <workItem from="1614178128467" duration="463000" />
       <workItem from="1614179726458" duration="438000" />
-      <workItem from="1614255430643" duration="11133000" />
+      <workItem from="1614255430643" duration="14780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17572000" />
+    <option name="totallyTimeSpent" value="21219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -338,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/staff.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -400,24 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/foot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../web/clearance/apply.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="148" column="41" lean-forward="true" selection-start-line="140" selection-start-column="32" selection-end-line="148" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2307">
-          <caret line="603" column="65" selection-start-line="603" selection-start-column="65" selection-end-line="603" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -428,13 +422,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libs/foot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3858">
+          <caret line="603" column="65" selection-start-line="603" selection-start-column="65" selection-end-line="603" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../creche/parent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="75" column="46" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="164" column="100" selection-start-line="164" selection-start-column="95" selection-end-line="164" selection-end-column="100" />
+        <state relative-caret-position="370">
+          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#1017#1045#0#HTML" expanded="true" />
+            <element signature="e#8158#8197#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
