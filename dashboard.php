@@ -84,7 +84,7 @@ require_once 'assets/head.php';
                 echo $sql->rowCount();
                 ?>
             </h3>
-            <p class="text-uppercase">All Approved Drugs</p>
+            <p class="text-uppercase">All Approved Drugs Registration</p>
         </div>
         <div class="icon">
             <i class="fab fa-dropbox"></i>
@@ -105,7 +105,7 @@ require_once 'assets/head.php';
                 echo $sql->rowCount();
                 ?>
             </h3>
-            <p class="text-uppercase">All Under Revision Drugs</p>
+            <p class="text-uppercase">All Under Revision Drugs Registration</p>
         </div>
         <div class="icon">
             <i class="fab fa-dropbox"></i>
@@ -121,10 +121,7 @@ require_once 'assets/head.php';
     <div class="small-box bg-green-gradient">
         <div class="inner">
             <h3>
-                <?php
-                $sql = $db->query("SELECT * FROM ".DB_PREFIX."client_company WHERE status IN(1)");
-                echo $sql->rowCount();
-                ?>
+                0
             </h3>
             <p class="text-uppercase">All Clients Productions</p>
         </div>
