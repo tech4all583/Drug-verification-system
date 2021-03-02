@@ -104,3 +104,11 @@ function status($status){
         return "Approved";
     }
 }
+
+function drug_status($status){
+    if ($status == 0){
+        return "Under Revision";
+    }else{
+        return "Approved";
+    }
+}

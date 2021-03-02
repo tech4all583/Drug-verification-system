@@ -116,12 +116,26 @@
                 </li>
 
                 <li >
-                    <a href="<?= base_url('production.php') ?>">
-                        <i class="fab fa-dashcube text-success "></i>
-                        <span> All Productions</span>
+                    <a href="<?= base_url('drug.php') ?>">
+                        <i class="fab fa-drupal text-success "></i>
+                        <span> Drugs Registration</span>
                     </a>
                 </li>
 
+
+                <li >
+                    <a href="<?= base_url('all-drugs.php') ?>">
+                        <i class="fab fa-drupal text-success "></i>
+                        <span>All Drugs Registered</span>
+                    </a>
+                </li>
+
+                <li >
+                    <a href="<?= base_url('production.php') ?>">
+                        <i class="fab fa-dashcube text-success "></i>
+                        <span> All Clients Productions</span>
+                    </a>
+                </li>
 
                 <li>
                     <a href="<?= base_url('logout.php') ?>">
