@@ -99,7 +99,7 @@ function checkemail($str) {
 
 function status($status){
     if ($status == 0){
-        return "Not Approve";
+        return "Unapproved";
     }else{
         return "Approved";
     }
